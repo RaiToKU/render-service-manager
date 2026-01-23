@@ -6,10 +6,10 @@ compatibility_date = "2026-01-20"
 [observability]
 enabled = false
 
-# KV 命名空间绑定
-[[kv_namespaces]]
-binding = "RENDER_KV"
-id = ""
+# KV 命名空间绑定，部署后，请记得在控制台绑定
+# [[kv_namespaces]]
+# binding = "RENDER_KV"
+# id = ""
 
 # 定时任务触发器
 [triggers]
